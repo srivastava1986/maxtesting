@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/maxtesting/Appium">
+        <classes>
+            <class name="com.Tests.LoginPageTest">
+<!--                <methods>-->
+<!--                    <include name="open_the_App"/>-->
+<!--                    <include name="enter_login_credentials"/>-->
+<!--                    <include name="create_folder"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.Tests.MyBoxxPageTest">
+                <methods>
+<!--                    <include name="step03_Upload_Single_image_file"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
